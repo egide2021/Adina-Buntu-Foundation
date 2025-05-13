@@ -1,0 +1,96 @@
+/* General Page Style */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e6f7ff; /* light blue */
+  color: #003366; /* dark blue text */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header Style */
+header {
+  background-color: #007acc; /* bold blue */
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Section Styling */
+.section {
+  padding: 20px;
+  margin: 20px;
+  background-color: #d9f2d9; /* light green */
+  border-left: 6px solid #339966; /* deep green */
+  border-radius: 8px;
+}
+
+/* Call to Action */
+.call-to-action {
+  background-color: #fff3cd;
+  border-left-color: #ffa500; /* orange */
+  color: #663300;
+}
+
+/* Footer Style */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #007acc;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* List Style */
+ul {
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 8px;
+}
+
+/* Buttons */
+.button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn.donate {
+  background-color: #007acc; /* Blue */
+  color: white;
+}
+
+.btn.donate:hover {
+  background-color: #005f99;
+}
+
+.btn.volunteer {
+  background-color: #339966; /* Green */
+  color: white;
+}
+
+.btn.volunteer:hover {
+  background-color: #2a7a55;
+}
