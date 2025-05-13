@@ -94,3 +94,28 @@ li {
 .btn.volunteer:hover {
   background-color: #2a7a55;
 }
+/* Buttons */
+.button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn.donate {
+  background-color: #007acc; /* Blue */
+  color: white;
+}
+
+.btn.donate:hover {
+  background-color: #005f99;
+}
